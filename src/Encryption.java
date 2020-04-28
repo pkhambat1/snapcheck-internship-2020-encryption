@@ -15,7 +15,6 @@ public class Encryption {
 			currCol = (currCol + 1) % cols;
 		}
 		StringBuilder res = new StringBuilder();
-		int len = 0;
 		for (int i = 0; i < cols; i++) {
 			for (int j = 0; j < rows; j++) {
 				if (matrix[j][i] == 0) {
